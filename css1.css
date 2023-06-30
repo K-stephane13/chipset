@@ -1,0 +1,75 @@
+body {
+	background-image: url("photo/UPC.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+header {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	padding:5px;
+	width: 95%;
+	justify-content: space-between;
+	box-sizing: border-box ;
+
+}
+    nav img {
+      width: 70px;
+      margin-left: 10px;
+    }
+
+.logo a {
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	margin: 5px;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.menu li {
+	margin: 0 20px 0 0;
+}
+
+.menu li:last-child {
+	margin: 0;
+}
+
+.menu li a {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+main {
+	padding: 100px;
+	margin-top: 90px;
+}
+
+.centered-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
